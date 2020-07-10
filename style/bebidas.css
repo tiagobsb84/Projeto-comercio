@@ -1,3 +1,5 @@
+@import "header.css";
+
 * {
     margin: 0;
     padding: 0;
@@ -10,45 +12,6 @@ body {
     background: url("https://www.significadofacil.com/wp-content/uploads/2019/07/background.jpg")
 }
 
-
-.home-page header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-
-    background-image: linear-gradient(45deg, #ffd31d, #d63447, #f57b51);
-}
-
-.home-page header legend {
-    display: flex;
-    
-
-}
-.home-page legend h1 {
-    font-weight: 700;
-    margin-left: 30px;
-    font-size: 50px;
-    padding: 20px;
-    margin-top: 45px; 
-}
-
-
-.home-page-menu a {
-    font-size: 30px;
-    text-decoration: none;
-    margin: 10px;
-    margin-right: 40px;
-    color: #000000;
-
-    transition: 800ms;
-}
-
-.home-page a:hover {
-    color: white;
-    border-bottom: 2px solid white;
-
-}
 
 .classificacao-bebidas {
     display: block;
@@ -93,34 +56,5 @@ body {
 }
 
 
-/* Style rodape */
-.page-home-rodape {
-    position: absoulte;
-    bottom: 0;
-    height: 100%;
-}
 
-.page-home-rodape aside{
-    margin-top: 20px;
-    background: #000000;
-}
-
-.page-home-rodape legend {
-    text-align: center;   
-    float: right; 
-}
-
-.page-home-rodape h4,
-.page-home-rodape p {
-    margin-left: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #f5f5f5;
-    line-height: 14px;
-    padding: 8px;
-}
-
-.page-home-rodape p {
-    margin-top: 30px;
-}
 
