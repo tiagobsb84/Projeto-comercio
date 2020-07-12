@@ -1,5 +1,11 @@
 /* cabeçalho */
 
+body {   
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+}
+
+
 :root {
     --header-bg1: #ffd31d;
     --header-bg2:#d63447;
