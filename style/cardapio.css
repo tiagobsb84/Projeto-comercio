@@ -12,6 +12,27 @@ body {
     background: #ffd31d;
 }
 
+.menus-opcoes {
+    padding: 10px;
+    background-color: rgb(165, 40, 40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menus-opcoes a{
+    margin-right: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+.menus-opcoes a:hover{
+    background: yellow;
+    color: black;
+    padding: 11px;
+    border-radius: 6px;
+}
+
 .sub-titulo {
     margin-top: 10px;
     border: 2px solid black;
