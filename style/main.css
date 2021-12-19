@@ -10,10 +10,12 @@
 body {   
     font-family: 'Ubuntu', sans-serif;
     height: 100%;
+
+    background: #a76d1740;
 }
 
 .home-page-carrosel {
-    width: 99vw;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -93,3 +95,6 @@ main .titulo-paragrafo {
     position: relative;
 }
 
+.page-home-logo img:hover {
+    opacity: 0.6;
+}

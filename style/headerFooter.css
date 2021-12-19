@@ -57,35 +57,48 @@ body {
 
 /* rodape */
 
-.page-home-rodape {
-    margin-top: 30px;
-    position: absoulte;
-    bottom: 0;
-    height: 100%;
+.rodape-conteudo {
+    background: black;
+    color: white;
+    padding: 1rem;
 }
 
-.page-home-rodape aside{
-    background: #000000;
-    margin-top: 30px;
+.rodape-secao {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.page-home-rodape legend {
-    text-align: center;   
-    float: right; 
+.rodape-redesociais {
+    text-align: center;
 }
 
-.page-home-rodape h4,
-.page-home-rodape p {
-    margin-left: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #f5f5f5;
-    line-height: 14px;
-    padding: 8px;
+.rodape-titulo-redesociais {
+    font-size: 1.4rem;
+    text-align: center;
+    color: orange;
+    letter-spacing: 0.16rem;
 }
 
-.page-home-rodape p {
-    margin-top: 30px;
+.rodape-redesociais img {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.rodape-titulo-contato {
+    font-size: 1.4rem;
+    text-align: center;
+    color: orange;
+    letter-spacing: 0.16rem;
+}
+
+.rodape-contato p {
+    line-height: 2rem;
+}
+
+.rodape-contato p span {
+    color: orange;
 }
 
 
