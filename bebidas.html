@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <link rel="stylesheet" href="style/bebida.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <title>Pizzaria e Lanches Nota10</title>
+
     <link rel="shortcut icon" href="./img/logo-pizzaria original.gif" type="image/x-icon">
+    
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/headerFooter.css">
+    <link rel="stylesheet" href="./style/bebida.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -18,7 +21,7 @@
             </legend>
 
             <div class="home-page-menu">
-                <a href="./index.html">Home</a>
+                <a href="/">Home</a>
                 <a href="./cardapio.html">Cardápio</a>
                 <a href="./bebidas.html">Bebidas</a>
             </div>
@@ -127,18 +130,26 @@
         </main>
     </div>
     
-    <rodape class="page-home-rodape">
-        <div class="page-fim">
-            <aside>
-                <legend><img src="img/logo-pizzaria.gif"></legend>
-                   <h4>Contato:</h4>
-                   <p>Cidade: Recanto das Emas</p>
-                   <p>Endereço: Quadra x conjunto x loja x</p>
-                   <p>Telefone: (xx)xxxx-xxxx</p>
-                   <p>Celular: (xx)xxxxx-xxxx / (xx)xxxxx-xxxx</p>
-            </aside>  
-        </div>
-             
-    </rodape>
+    <rodape>
+            <div class="rodape-conteudo">
+                <div class="rodape-secao">
+                    <div class="rodape-titulo">
+                        <img src="./img/logo-pizzaria original.gif" alt="logo da pizzaria">
+                    </div>
+                    <div class="rodape-redesociais">
+                        <h4 class="rodape-titulo-redesociais">Nossas Redes Sociais</h4><br>
+                        <img src="./img/svg/facebook-svg.svg" alt="facebook">
+                        <img src="./img/svg/icons8-whatsapp.svg" alt="whatsapp">
+                        <img src="./img/svg/icons8-instagram.svg" alt="instagram">
+                    </div>
+                    <div class="rodape-contato">
+                        <h4 class="rodape-titulo-contato">Contato</h4><br>
+                        <p><span>Cidade:</span> Brasília - DF</p>
+                        <p><span>Endereço:</span> Quadra x conjunto x loja x</p>
+                        <p><span>Telefone:</span> (xx)xxxx-xxxx</p>
+                        <p><span>Celular:</span> (xx)xxxxx-xxxx / (xx)xxxxx-xxxx</p>
+                    </div>
+            </div>                
+        </rodape>
 </body>
 </html>
