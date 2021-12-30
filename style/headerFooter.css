@@ -5,14 +5,6 @@ body {
     height: 100%;
 }
 
-
-:root {
-    --header-bg1: #ffd31d;
-    --header-bg2:#d63447;
-    --header-bg3: #f57b51;
-    --title-color: #e7272d;
-}
-
 .home-page {
     display: flex;
     justify-content: space-between;
@@ -61,6 +53,7 @@ body {
     background: black;
     color: white;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .rodape-secao {

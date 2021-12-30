@@ -1,61 +1,85 @@
-@import "header.css";
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* outline: 0; Tira bordas do input padrão do navegador */
-}
-
 body {
-    background: #ffd31d;
+    background: var(--header-bg1);
 }
 
 .menus-opcoes {
-    padding: 10px;
+    padding: 1.3rem;
     background-color: rgb(165, 40, 40);
-    margin-top: 20px;
-    margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 29px;
 }
 
 .menus-opcoes a{
     margin-right: 80px;
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
+
+    transition: color 0.6s;
 }
 
 .menus-opcoes a:hover{
-    background: yellow;
-    color: black;
-    padding: 11px;
-    border-radius: 6px;
+    color: rgb(11, 243, 11);
 }
 
 .sub-titulo {
-    margin-top: 10px;
     border: 2px solid black;
-    padding: 10px;
-    font-size: 40px;
+    padding: 10px; 
     background: rgb(165, 40, 40);
-    color: white;
-    text-align: center;
-    letter-spacing: 0.5em;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.sub-titulo-pizza {
+    font-size: 40px;
+    letter-spacing: 0.5em;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.sub-titulo-pizza a img {
+    width: 2.5rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+    background-color: #ff1d1dfd;
+}
+
+.sub-titulo-pizza a img:hover {
+    opacity: 0.8;
+} 
+
 .cardapio-pizz {
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;   
-    grid-gap: 15px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cardapio-pizz img {
+    margin-top: 0.5rem;
+    width: 100%;
+    max-height: 17rem;
+    height: 100%;
 }
 
 .pizz {
-    border: 2px solid white;
     background: white;
+    max-width: 21rem;
+    border-radius: 6px;
+}
+
+.pizz_titulo {
+    font-size: 2rem;
+    color: var(--title-color);
+    text-align: center;
+    font-weight: bold;
 }
 
 .pizz span {
@@ -68,20 +92,18 @@ body {
 
 .pizz .descricao-pizza {
     text-align: center;
+    margin-top: 1rem;
 }
 
-.preco {
+.pizz_preco {
     text-align: center;
+    color: var(--title-color);
+    font-size: 1.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
 }
 
-.preco span {
-    text-decoration: none;
-}
 
-.cardapio-pizz img {
-    width: 100%;
-    height: 300px;
-    margin: 0 auto;
-}
 
 
